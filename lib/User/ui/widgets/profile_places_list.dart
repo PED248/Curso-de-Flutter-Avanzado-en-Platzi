@@ -1,6 +1,8 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
-import 'profile_place.dart';
-import 'place.dart';
+import 'package:platzi_trips_app/Place/model/place.dart';
+import 'package:platzi_trips_app/User/ui/widgets/profile_place.dart'; 
 
 class ProfilePlacesList extends StatelessWidget {
 
@@ -24,5 +26,4 @@ class ProfilePlacesList extends StatelessWidget {
       ),
     );
   }
-
 }
